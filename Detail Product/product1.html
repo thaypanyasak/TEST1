@@ -1,0 +1,156 @@
+ <!--DOCTYPE html-->
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>THAYSHOP</title>
+        <link rel="icon" type="image/x-icon" href="/Images/basketball-ball.png">
+        <link rel="stylesheet" href="styleproduct.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+        <!-- Link Swiper's CSS -->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
+    
+    
+    </head>
+    <body>
+    
+        <!--==Product-Page=================================-->
+        <section id="product-page">
+        <div class="product-details">
+            <!--IMAGES CLASS-->
+            <div class="product-img">
+    
+            <!-- Swiper Slider -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                <!--Add Images-->
+                <div class="swiper-slide">
+                    <img src="images/detail1/1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail1/2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail1/3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail1/4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail1/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail1/6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/detail1/7.jpg" />
+              </div>
+    
+                </div>
+    
+                <!--btns-->
+                <div class="slider-btns">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+    
+            </div>
+            <!--**Text************************-->
+            <div class="product-text">
+                <!--category-->
+                <span class="product-category"><i class='bx bxs-basketball' ></i>THAY BASKETBALL SHOES SHOP</span>
+                <h3>ZOOM FREAK 4</h3>
+                <span class="product-price">3.669.000 VND</span>
+                <p>Giannis is an incessant storm of stamina and skill that keeps coming at opponents for 4 quarters or more. The forward-thinking design of his latest signature shoe helps propel you down the court in a lightweight fit that moves with you.
+                    <br/>
+                    It can handle quick changes in direction on both sides of the floor, giving you side-to-side stability and multi-directional traction as you Euro step to the hoop. This special design is inspired by Giannis's 1-and-only last name, 1 that befuddles both fans and analysts alike.
+                </p>
+                <!--size-->
+                <div class="product-size-container">
+                    <strong>Choose Size:-</strong>
+                    <div class="product-size">
+                        <!--Size 38-->
+                        <input type="checkbox" class="s-checkbox" id="s-38">
+                        <label for="s-38" class="s-label">38</label>
+                        <!--Size 39-->
+                        <input type="checkbox" class="s-checkbox" id="s-39">
+                        <label for="s-39" class="s-label">39</label>
+                        <!--Size 40-->
+                        <input type="checkbox" class="s-checkbox" id="s-40">
+                        <label for="s-40" class="s-label">40</label>
+                        <!--Size 41-->
+                        <input type="checkbox" class="s-checkbox" id="s-41">
+                        <label for="s-41" class="s-label">41</label>
+                        <!--Size 42-->
+                        <input type="checkbox" class="s-checkbox" id="s-42">
+                        <label for="s-42" class="s-label">42</label>
+                        <!--Size 43-->
+                        <input type="checkbox" class="s-checkbox" id="s-43">
+                        <label for="s-43" class="s-label">43</label>
+                        <!--Size 44-->
+                        <input type="checkbox" class="s-checkbox" id="s-44">
+                        <label for="s-44" class="s-label">44</label>
+                        <!--Size 45-->
+                        <input type="checkbox" class="s-checkbox" id="s-45">
+                        <label for="s-45" class="s-label">45</label>
+                    </div>
+                </div>
+    
+                <!--btn-->
+                <div class="product-button">
+                    <a href="#" class="add-bag-btn">Add To Bag</a>
+                    <a href="#" class="add-wishlist-btn">Add To Wishlist</a>
+                </div>
+                <!--help-btn-->
+                <a href="#" class="help-btn">Need Any Help?</a>
+            </div>
+        </div>
+        </section>
+    
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="crossorigin="anonymous"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+              450: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+              },
+              820: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+              },
+              1024: {
+                slidesPerView: 1,
+                spaceBetween:0,
+              },
+            },
+          });
+    
+    
+          $('.s-checkbox').on('change', function() {
+                $('.s-checkbox').not(this).prop('checked', false);  
+            });
+        </script>
+    </body>
+    </html>
